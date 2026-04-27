@@ -2,9 +2,9 @@
 #Period 6
 #Week 14
 #time spent
-import rpgcharacters
-player1 = rpgcharacters.Samuri("Peter", 100, 15, 2, 5)
-player2 = rpgcharacters.Wizard("Emily", 80, 10, 3, 20)
+import classes
+player1 = classes.Samuri("Peter", 100, 15, 2, 5)
+player2 = classes.Wizard("Emily", 80, 10, 3, 20)
 player1.display_stats()
 print()
 player2.display_stats()
