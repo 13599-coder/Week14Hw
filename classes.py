@@ -30,6 +30,7 @@ class Samuri(RPGCharacter):
         print(self.get_name(), "blocks the attack")
 class Wizard(RPGCharacter)
     def __init__(self, name, health, attack_power, level, magic):
+        RPGCharacters.__init__(self, name, health, attack_power, level)
         self.__magic = magic
     def attack(self):
         print(self.get_name(), "casts a powerful spell")
