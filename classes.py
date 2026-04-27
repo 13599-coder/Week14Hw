@@ -28,3 +28,11 @@ class Samuri(RPGCharacter):
         print(self.get_name(), "uses the armor")
     def block(self):
         print(self.get_name(), "blocks the attack")
+class Wizard(RPGCharacter)
+    def __init__(self, name, health, attack_power, level, magic):
+        self.__magic = magic
+    def attack(self):
+        print(self.get_name(), "casts a powerful spell")
+    def heal(self):
+        print(self.get_name(), "casts a heal spell")
+        
